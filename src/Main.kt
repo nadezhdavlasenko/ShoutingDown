@@ -57,10 +57,10 @@ fun dijkstra(graph: Array<DoubleArray>, src: Int): DoubleArray {
     return dist
 }
 
-fun minDistance(dist: DoubleArray, sptSet: BooleanArray): Int {
+fun minDistance(dist: DoubleArray, processed: BooleanArray): Int {
     var min = Double.MAX_VALUE
     var min_index = -1
-    for (v in dist.indices) if (!sptSet[v] && dist[v] <= min) {
+    for (v in dist.indices) if (!processed[v] && dist[v] <= min) {
         min = dist[v]
         min_index = v
     }
