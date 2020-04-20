@@ -7,8 +7,11 @@ Input Format
 Constraints
 
 1 ≤ n ≤ 50
+
 -10000 ≤ xi ≤ 10000
+
 -10000 ≤ yi ≤ 10000
+
 Output Format
 
 Выведите искомое наименьшее расстояние с погрешностью не более 10-6.
@@ -16,11 +19,15 @@ Output Format
 Sample Input 0
 
 2
+
 -2000 3000
+
 -2000 3000
+
 Sample Output 0
 
 0.0
+
 Explanation 0
 
 Двое людей стоят на одном и том же месте, поэтому кричать не нужно.
@@ -28,13 +35,21 @@ Explanation 0
 Sample Input 1
 
 7
+
 3 2
+
 3 3
+
 3 4
+
 3 3
+
 3 9
+
 3 8
+
 3 1
+
 Sample Output 1
 
 4.0
@@ -46,13 +61,19 @@ Explanation 1
 Sample Input 2
 
 4
+
 5 0
+
 0 5
+
 -5 0
+
 0 -5
+
 Sample Output 2
 
 7.0710678118654755
+
 Explanation 2
 
 Эти люди стоят в вершинах квадрата. Наилучший способ общаться — передавать сообщения вдоль сторон квадрата. Каждая сторона квадрата имеет длину 5*sqrt(2).
@@ -60,7 +81,9 @@ Explanation 2
 Sample Input 3
 
 1
+
 123 342
+
 Sample Output 3
 
 0.0
